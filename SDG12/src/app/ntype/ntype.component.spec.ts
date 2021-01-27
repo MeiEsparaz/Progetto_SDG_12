@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NTypeComponent } from './n-type.component';
+import { NtypeComponent } from './ntype.component';
 
-describe('NTypeComponent', () => {
-  let component: NTypeComponent;
-  let fixture: ComponentFixture<NTypeComponent>;
+describe('NtypeComponent', () => {
+  let component: NtypeComponent;
+  let fixture: ComponentFixture<NtypeComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NTypeComponent ]
+      declarations: [ NtypeComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NTypeComponent);
+    fixture = TestBed.createComponent(NtypeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,22 +1,24 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CountryComponent } from './country/country.component';
-import { NTypeComponent } from './n-type/n-type.component';
 import { PaginaComponent } from './pagina/pagina.component';
+import { NtypeComponent } from './ntype/ntype.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CountryComponent,
-    NTypeComponent,
-    PaginaComponent
+    PaginaComponent,
+    NtypeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    NgModule
   ],
   providers: [],
   bootstrap: [AppComponent]
