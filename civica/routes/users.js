@@ -8,7 +8,7 @@ router.get('/', function (req, res, next) {
     const uri = "mongodb+srv://FulgaCristian:FulgaCristian@fulgacluster0.8odzw.mongodb.net/test"
     const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
     client.connect(err => {
-        const collection = client.db("SDG12").collection("consumption"); //Mi connetto alla collection movies
+        const collection = client.db("SDG12").collection("12_5"); //Mi connetto alla collection movies
         // perform actions on the collection object
         collection.find().limit(10).toArray((err, result) => {
             if (err) console.log(err.message); //Se c'è qualche errore lo stampo
