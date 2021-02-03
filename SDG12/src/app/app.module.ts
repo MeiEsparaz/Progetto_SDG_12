@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CountryComponent } from './country/country.component';
 import { PaginaComponent } from './pagina/pagina.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { GoogleChartsModule } from 'angular-google-charts';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgModule
+    GoogleChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
