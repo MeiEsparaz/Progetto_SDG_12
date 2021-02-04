@@ -7,7 +7,7 @@ import {PaginaComponent} from './pagina/pagina.component';
 const routes: Routes = [
 { path: 'pagina', component: PaginaComponent },
 { path: 'items/:id', component:CountryComponent },
-{path: '',   redirectTo: '/search', pathMatch: 'full' }
+{path: '',   redirectTo: '/pagina', pathMatch: 'full' }
 ];
 
 @NgModule({

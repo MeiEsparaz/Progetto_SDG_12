@@ -18,7 +18,8 @@ import { GoogleChartsModule } from 'angular-google-charts';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    GoogleChartsModule
+    GoogleChartsModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
