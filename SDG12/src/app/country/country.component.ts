@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import{HttpClient} from "@angular/common/http"
 
 @Component({
   selector: 'app-country',
@@ -7,7 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CountryComponent implements OnInit {
 
-  constructor() { }
+ 
+  constructor(public http: HttpClient) { }
 
   ngOnInit(): void {
   }
